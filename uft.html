@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UFT repository</title>
+    <link rel="stylesheet" type="text/css" href="./libs/www/w2ui-1.4.2.min.css"></link>
+    <script type="text/javascript" src="./libs/www/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="./libs/www/w2ui-1.4.2.js"></script>
+
+  </head>
+  <body>
+
+    <div class="w2ui-field">
+      <label>UFT Racks</label>
+      <div>
+        <input type="us-date">
+      </div>
+    </div>
+
+    <div id="racks" style="width:80%; height:300px;"></div>
+  </body>
+
+    <script>
+      $('input[type=us-date]').w2field('date');
+
+    </script>
+
+    <script type="text/javascript" src="./_uft/racks.js"></script>
+</html>
+
