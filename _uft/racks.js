@@ -2,6 +2,8 @@
 var records = [
 
 {name: 'RACK_NAME_PARAM_TYPE_MGR', iid: 'IMicParamTypeMgr'},
+{name: 'RACK_NAME_BROWSER_MASTER', iid: 'IWIBrowserMaster'},
+{name: 'RACK_NAME_OBJECT_MANAGER', iid: 'IObjectManager'},
 {name:'test', iid: "ITest"}
 
 ];

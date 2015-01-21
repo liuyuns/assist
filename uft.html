@@ -2,13 +2,20 @@
 <html>
   <head>
     <title>UFT repository</title>
+    <link rel="stylesheet" type="text/css" href="./google-code-prettify/prettify.css"></link>
+    <script type="text/javascript" src="./google-code-prettify/prettify.js"></script>
+
     <link rel="stylesheet" type="text/css" href="./libs/www/w2ui-1.4.2.min.css"></link>
     <script type="text/javascript" src="./libs/www/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="./libs/www/w2ui-1.4.2.js"></script>
 
   </head>
-  <body>
+  <body onload="prettyPrint()">
 
+    <pre class="prettyPrint linenums" >
+      var i = 12;
+      print i;
+    </pre>
     <div class="w2ui-field">
       <label>UFT Racks</label>
       <div>
@@ -16,7 +23,11 @@
       </div>
     </div>
 
-    <div id="racks" style="width:80%; height:300px;"></div>
+    <div style="width:100%; display:table">
+    <div id="racks" style="width:40%; height:300px; display:table-cell"></div>
+
+    <div id="talks" style="height:300px; display:table-cell"></div>
+  </div>
   </body>
 
     <script>
@@ -25,5 +36,6 @@
     </script>
 
     <script type="text/javascript" src="./_uft/racks.js"></script>
+    <script type="text/javascript" src="./_uft/talks.js"></script>
 </html>
 
